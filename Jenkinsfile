@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         echo 'Build quickstart'
-        sh 'mvnw clean verify'
+        sh './mvnw clean verify'
       }
     }
 
