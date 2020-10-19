@@ -17,4 +17,10 @@ class MathTest {
     final int difference = Math.subtract(2, -1);
     assertEquals(3, difference);
   }
+
+  @Test
+  void multiply() {
+    final int product = Math.multiply(5, 6);
+    assertEquals(30, product);
+  }
 }
